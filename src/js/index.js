@@ -4,23 +4,41 @@ listaSelecaoMedicinais.forEach(item => {
 
    item.addEventListener('click', () => {
 
-      const cartaoAberto = document.querySelector(".aberto")
-      cartaoAberto.classList.remove("aberto")
+      esconderCartao();
 
-      const idSelecionado = item.attributes.id.value;
+      const idSelecionado = mostrarCartaoSelecionado(item);
 
-      const idCartaoAbrir = "cartao-" + idSelecionado
+      desativarItemListagem();
 
-      const cartaoAbrir = document.getElementById(idCartaoAbrir)
-      cartaoAbrir.classList.add("aberto")
-
-
-      const medicinaisAtivo = document.querySelector(".ativo")
-      medicinaisAtivo.classList.remove("ativo")
-
-      const medicinaisSelecionado = document.getElementById(idSelecionado)
-      medicinaisSelecionado.classList.add("ativo")
+      selectMedicinalItem(idSelecionado);
 
    });
 
 });
+
+
+function selectMedicinalItem(idSelecionado) {
+   const medicinaisSelecionado = document.getElementById(idSelecionado);
+   medicinaisSelecionado.classList.add("ativo");
+}
+
+function desativarItemListagem() {
+   const medicinaisAtivo = document.querySelector(".ativo");
+   medicinaisAtivo.classList.remove("ativo");
+}
+
+function mostrarCartaoSelecionado(item) {
+   const idSelecionado = item.attributes.id.value;
+
+   const idCartaoAbrir = "cartao-" + idSelecionado;
+
+   const cartaoAbrir = document.getElementById(idCartaoAbrir);
+   cartaoAbrir.classList.add("aberto");
+   return idSelecionado;
+}
+
+function esconderCartao() {
+   const cartaoAberto = document.querySelector(".aberto");
+   cartaoAberto.classList.remove("aberto");
+}
+
