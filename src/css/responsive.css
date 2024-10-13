@@ -1,4 +1,10 @@
 @media (max-width: 750px) {
+
+    h1{
+        font-size: 3rem;
+        padding-top: 1rem;
+    }
+
     .medicinal {
         flex-direction: column;
         align-items: center;
