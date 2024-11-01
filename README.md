@@ -48,7 +48,7 @@
 
 - The website was created to practice HTML, CSS and JavaScript skills.
 
-
+<br>
 
 ## 📜 License
 
@@ -60,3 +60,10 @@
 
 ## 📚 Resources
 Here are the resources that were helpful for this project:
+
+<br>
+
+## 🫱🏻‍🫲🏻 Contributing
+<p> Contributions, issues, and feature requests are welcome! Please, feel free to do it! 😉 </p>
+
+<br>
