@@ -42,3 +42,9 @@
 - Card Content.
 
 <br>
+
+## 💻 Project
+
+- The website was created to practice HTML, CSS and JavaScript skills.
+
+<br>
