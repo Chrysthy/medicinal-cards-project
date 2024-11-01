@@ -56,8 +56,6 @@
 
 <br>
 
-<br>
-
 ## 📚 Resources
 Here are the resources that were helpful for this project:
 
