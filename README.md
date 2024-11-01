@@ -32,3 +32,13 @@
 - CSS
 - JavaScript
 - Git e GitHub
+
+<br>
+
+## ✨ Features
+
+- Page Integration;
+- Responsive layout;
+- Card Content.
+
+<br>
