@@ -59,6 +59,8 @@
 ## 📚 Resources
 Here are the resources that were helpful for this project:
 
+* Images taken from Google
+
 <br>
 
 ## 🫱🏻‍🫲🏻 Contributing
